@@ -25,9 +25,21 @@
     <ClCompile Include="..\source\main.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="..\source\PicMgr.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\input.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PicMgr.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\struct.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>

@@ -69,11 +69,15 @@
   <ItemGroup>
     <ClCompile Include="..\source\common.cpp" />
     <ClCompile Include="..\source\ffmpeg_Info.cpp" />
+    <ClCompile Include="..\source\input.cpp" />
     <ClCompile Include="..\source\main.cpp" />
+    <ClCompile Include="..\source\PicMgr.cpp" />
     <ClCompile Include="..\source\Player_SDL.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\common.h" />
+    <ClInclude Include="..\include\PicMgr.h" />
+    <ClInclude Include="..\include\struct.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
