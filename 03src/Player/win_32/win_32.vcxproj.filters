@@ -31,6 +31,18 @@
     <ClCompile Include="..\source\input.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="..\source\playerObj.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\StreamBase.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\YUVStream.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\VideoStream.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\common.h">
@@ -40,6 +52,18 @@
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="..\include\struct.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\playerObj.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\StreamBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\YUVStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\VideoStream.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>

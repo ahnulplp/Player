@@ -4,4 +4,8 @@
     <LocalDebuggerEnvironment>PATH=../../../01lib/third_dll/ffmpeg;../../../01lib/third_dll/SDL2; $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerEnvironment>PATH=../../../01lib/third_dll/ffmpeg;../../../01lib/third_dll/SDL2; $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
 </Project>
